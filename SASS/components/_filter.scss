@@ -1,0 +1,11 @@
+/*portfolio-buttons*/
+.filter {
+    margin-top: 0;
+    margin-bottom: 34px;
+    display: flex;
+    justify-content: center;
+   
+}
+.filter__item:not(:last-child) {
+    margin-right: 8px;
+}

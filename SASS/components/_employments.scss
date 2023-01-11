@@ -1,0 +1,44 @@
+/*our employments*/
+
+
+.employments { 
+    display: flex;
+ 
+    
+}
+.employments__image  {
+    display: block;
+}
+
+.employments__item { 
+    display: block;
+    position: relative;
+
+    &:not(:last-child) { 
+        margin-right: 30px;
+    }
+    
+}
+
+
+.employments__title  { 
+   position: absolute;
+   bottom: 0;
+   left: 0;
+
+    display: flex;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--hero-color);
+    background-color: rgba(47, 48, 58, 0.8);
+
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    margin: 0;
+    min-width: 370px;
+    
+}

@@ -1,0 +1,12 @@
+/*footer*/
+.footer__container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer {
+     padding-top: 60px;
+     padding-bottom: 60px;
+
+    background-color: var(--shade-color);
+}
