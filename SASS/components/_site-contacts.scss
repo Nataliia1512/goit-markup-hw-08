@@ -1,11 +1,11 @@
 /*site-contacts*/
 .site-contacts { 
-    display: flex;
+    //display: flex;//
     margin-left: auto;
 }
 
 .site-contacts__item  {
-    display: flex;
+    //display: flex;//
 
     & + & { 
         margin-left: 40px;
@@ -14,7 +14,7 @@
 
 
 .site-contacts__link { 
-    display: flex;
+    //display: flex;//
     align-items: center;
 
     padding-top: 32px;

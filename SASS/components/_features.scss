@@ -1,8 +1,8 @@
 
 /*features*/
-.features  {
+/*.features  {
     display: flex;
-} 
+} */
 
 .features__item { 
 width: 270px;
@@ -32,7 +32,7 @@ width: 270px;
     line-height: 1.7;
 }
 .features__icons-container {
-    display: flex;
+    //display: flex;//
     width: 270px;
     height: 120px;
     background-color: var(--secondary-shade-color);

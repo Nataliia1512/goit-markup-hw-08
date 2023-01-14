@@ -1,9 +1,9 @@
 /*regular customers*/
 
 
-.customers {
+/*.customers {
     display: flex;
-}
+}*/
 
 
 .customers__item:not(:last-child) {
@@ -11,7 +11,7 @@
 
 }
 .customers__link  {
-    display: flex;
+    //display: flex;//
     height: 92px;
     width: 170px;
 

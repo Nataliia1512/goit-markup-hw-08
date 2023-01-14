@@ -1,12 +1,20 @@
 .header { 
-    border-bottom: 1px solid var(--border-color)
+    border-bottom: 1px solid var(--border-color);
+    
 
 }
 
 .header__container {
-    display: flex;
+   // display: flex;
     align-items: center;
+    
 }
 .header__nav {
-    display: flex;
-}
+   //display: flex;
+   position: relative;
+   
+ }
+
+
+
+
