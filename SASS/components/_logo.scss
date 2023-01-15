@@ -1,18 +1,29 @@
 
 .logo { 
-    padding-top: 24px;
-    padding-bottom: 25px;
 
+    display: block;
     color: var(--black-color);
     font-family: Raleway,sans-serif;
-    font-size: 26px;
-    font-weight: 1.2;
+    font-size: 24px;
+    font-weight: 1.17;
     text-decoration: none;
-
+    letter-spacing: 0.03em;
+    margin-right: 0;
+   
     &:hover {
         color: var(--accent-color);
     }
-
+@media screen and (min-width:768px) {
+    margin-right: 88px;
+    
+}
+@media screen and (min-width:1200px) {
+    margin-right: 93px;
+    font-size: 26px;
+    line-height: 1.2;
+    text-align: right;
+    
+}
 }
 
 
