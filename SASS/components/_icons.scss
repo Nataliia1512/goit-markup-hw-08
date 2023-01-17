@@ -1,8 +1,9 @@
 /*team-icons*/ 
 .icons {
-    //display: flex;//
+    display: flex;
     list-style: none;
     align-items: center;
+    justify-content: center;
     padding-left: 0;
    
 }
@@ -13,7 +14,7 @@
 
 
 .icons__link  { 
-    //display: flex;//
+    display: flex;
     height: 44px;
     width: 44px;
     border-radius: 50%;
@@ -39,7 +40,7 @@
 
 
 .icons__svg  {
-    //display: flex;//
+    display: flex;
     width: 20px;
     height: 20px;
     fill: currentColor;  
