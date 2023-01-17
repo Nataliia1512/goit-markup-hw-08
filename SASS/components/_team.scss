@@ -19,15 +19,15 @@
 .team__item { 
     background-color: var(--hero-color);
     text-align: center;
-
     box-shadow: 0 4px 4px 0 var(--box-shadow-color);
+    margin-bottom: 30px;
 
   
-   /*@media screen and (min-width: 1200px) {
+   @media screen and (min-width: 1200px) {
         &:not(:last-child) { 
             margin-right: 30px;
         }
-    }*/
+    }
     
 }
 
@@ -67,7 +67,8 @@ height: 100%;
 .team__background{
     padding: 30px 32px;
     background-color: var(--hero-color);
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+     }
     
     /*.team__background:last-child {
         margin-bottom: 0;
