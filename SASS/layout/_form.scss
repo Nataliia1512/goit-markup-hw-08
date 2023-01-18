@@ -5,21 +5,26 @@
 } 
 
 .form__title {
-    //display: block;//
+    display: block;
     text-align: center;
     font-weight: 700;
     font-size: 20px;
-    line-height: 1.15;
+    line-height: 1.5;
     color: var(--title-text-color);
 
     margin-top: 0;
     margin-bottom: 12px;
+
+    @media screen and (min-width: 1200px) {
+        line-height: 1.15;
+        
+    }
 } 
 
 
 .form__field {
     position: relative;
-    //display: flex;//
+    display: flex;
     flex-direction: column;
     margin-bottom: 10px;
 } 
@@ -68,7 +73,7 @@ fill: var(--accent-color);
 
 
 .form__comments {
-    //display: flex;//
+    display: flex;
     flex-direction: column;
     width: 100%;
 

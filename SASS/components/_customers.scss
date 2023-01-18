@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
+    text-align: center;
 
     @media screen and (min-width:1200px){
         flex-wrap: nowrap;
@@ -59,5 +60,6 @@
     fill: var(--accent-color);
 }
 }
+
 
 

@@ -1,7 +1,20 @@
 /*footer*/
 .footer__container {
-    //display: flex;//
-    align-items: baseline;
+    
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    @media screen and (min-width: 1200px) {
+        justify-content: space-between;
+        text-align: start;
+        
+    }
 }
 
 .footer {
