@@ -146,8 +146,8 @@ body {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
+  padding-bottom: 0;
   margin-top: 0;
-  margin-bottom: 20px;
   margin-right: 155px;
 }
 .logo--white:hover {
@@ -891,6 +891,7 @@ body {
             justify-content: start;
     margin-right: 70px;
     margin-left: 0;
+    margin-bottom: 0;
   }
 }
 
