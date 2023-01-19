@@ -146,12 +146,21 @@ body {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
-  padding-bottom: 0;
-  margin-top: 0;
-  margin-right: 155px;
 }
 .logo--white:hover {
   color: var(--accent-color);
+}
+@media screen and (min-width: 768px) {
+  .logo--white {
+    margin-right: 155px;
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .logo--white {
+    padding-bottom: 0;
+    margin-top: 0;
+  }
 }
 
 /*layout*/
@@ -934,7 +943,14 @@ body {
 /*footer - social media*/
 .join {
   text-align: center;
+  margin-top: 60px;
   margin-bottom: 60px;
+}
+@media screen and (min-width: 768px) {
+  .join {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
 @media screen and (min-width: 1200px) {
   .join {
@@ -945,7 +961,6 @@ body {
 }
 
 .join__text {
-  margin-top: 0;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
