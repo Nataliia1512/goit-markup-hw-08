@@ -61,7 +61,6 @@ body {
 
 .header {
   border-bottom: 1px solid var(--border-color);
-  z-index: 1;
   top: 0;
   left: 0;
   width: 100%;
@@ -82,12 +81,6 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 10px auto;
-}
-@media screen and (min-width: 768px) {
-  .header__container {
-    margin-left: 0;
-    margin-right: 0;
-  }
 }
 
 /*components*/
@@ -1532,6 +1525,7 @@ portfolio*/
   padding: 48px 40px;
   width: 100vw;
   height: 100vh;
+  background-color: var(--hero-color);
   overflow-y: scroll;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
